@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos4f95",
+    "Slug": "mycetos",
+    "Status": "In progress",
+    "Title": "Inhibition of Eumycetoma from MycetOS",
+    "Description": "This model predicts the growth of the fungus Eumycetoma in presence of small drugs. It has been developed using the data from MycetOS",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,11 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": [
+        "Mycetoma",
+        "Antifungal activity"
+    ],
+    "Publication": "https://www.ijidonline.com/article/S1201-9712(20)31735-5/fulltext",
+    "Source Code": "https://github.com/ersilia-os/lazy-qsar",
+    "License": "GPL-3.0"
 }
