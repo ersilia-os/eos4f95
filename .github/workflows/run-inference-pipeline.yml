@@ -1,11 +1,6 @@
 name: Run Inference Pipeline
 on:
   workflow_dispatch:
-  
-  workflow_run:
-    workflows: ["Upload model to DockerHub"]
-    types:
-      - completed
 
 permissions:
   contents: read
