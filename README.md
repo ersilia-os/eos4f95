@@ -26,7 +26,7 @@ This model predicts the growth of the fungus M. mycetomatis, causal agent of Myc
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos4f95)
 * [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4f95.zip)
-* [DockerHub](https://hub.docker.com/r/ersiliaos/eos4f95) (AMD64, ARM64)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos4f95) (AMD64)
 
 ## Citation
 
