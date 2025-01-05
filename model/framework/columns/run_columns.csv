@@ -1,0 +1,2 @@
+name,type,direction,description
+mycetoma_inhibition,float,high,Probability score of inhibiting the fungus Madurella mycetomatis at 20% growth

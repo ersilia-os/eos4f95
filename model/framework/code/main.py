@@ -33,6 +33,6 @@ output1 = my_model(smiles_list)
 # write output in a .csv file
 with open(output_file, "w") as f:
     writer = csv.writer(f)
-    writer.writerow(["Mycetoma_growth_less20perc"])  # header with column names
+    writer.writerow(["mycetoma_inhibition"])  # header with column names
     for o1 in output1:
         writer.writerow([o1])
