@@ -3,21 +3,18 @@
     "Slug": "mycetos",
     "Status": "Ready",
     "Title": "Inhibition of Eumycetoma from MycetOS",
-    "Description": "This model predicts the growth of the fungus M. mycetomatis, causal agent of Mycetoma, in presence of small drugs. It has been developed using the data from MycetOS, an opemn source initiative aiming at finding new patent-free drugs. The model has been trained using the LazyQSAR package (MorganBinaryClassifier) from Ersilia.\n",
+    "Description": "This model predicts the growth of the fungus M. mycetomatis, causal agent of Mycetoma, in presence of small drugs. It has been developed using the data from MycetOS, an opemn source initiative aiming at finding new patent-free drugs. The model has been trained using the LazyQSAR package (MorganBinaryClassifier) from Ersilia.",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "Internal",
+    "Task": "Annotation",
+    "Subtask": "Activity prediction",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Annotation",
-    "Subtask": "Activity prediction",
-    "Biomedical Area": [
-        "Mycetoma"
-    ],
-    "Target Organism": [
-        "Madurella mycetomatis"
-    ],
     "Output": [
         "Score"
     ],
@@ -28,19 +25,24 @@
         "Mycetoma",
         "Antifungal activity"
     ],
-    "Publication": "https://www.ijidonline.com/article/S1201-9712(20)31735-5/fulltext",
+    "Biomedical Area": [
+        "Mycetoma"
+    ],
+    "Target Organism": [
+        "Madurella mycetomatis"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2020,
+    "Publication": "https://www.ijidonline.com/article/S1201-9712(20)31735-5/fulltext",
     "Source Code": "https://github.com/ersilia-os/lazy-qsar",
     "License": "GPL-3.0-or-later",
     "Contributor": "GemmaTuron",
     "Incorporation Date": "2023-09-27",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4f95.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos4f95",
     "Docker Architecture": [
         "AMD64"
     ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4f95.zip",
-    "Deployment": [
-        "Local"
-    ]
+    "Model Size": 1.0,
+    "Environment Size": 7381.0
 }
