@@ -4,6 +4,7 @@ This model predicts the growth of the fungus M. mycetomatis, causal agent of Myc
 
 This model was incorporated on 2023-09-27.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos4f95`
