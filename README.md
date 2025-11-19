@@ -1,6 +1,6 @@
 # Inhibition of Eumycetoma from MycetOS
 
-This model predicts the growth of the fungus M. mycetomatis, causal agent of Mycetoma, in presence of small drugs. It has been developed using the data from MycetOS, an opemn source initiative aiming at finding new patent-free drugs. The model has been trained using the LazyQSAR package (MorganBinaryClassifier) from Ersilia.
+This model predicts the growth of the fungus M. mycetomatis, causal agent of Mycetoma, in presence of small drugs. It has been developed using the data from MycetOS, an open source initiative aiming at finding new patent-free drugs. The model has been trained using the LazyQSAR package from Ersilia.
 
 This model was incorporated on 2023-09-27.
 
@@ -29,7 +29,7 @@ This model was incorporated on 2023-09-27.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| mycetoma_inhibition | float | high | Probability score of inhibiting the fungus Madurella mycetomatis at 20% growth |
+| mycetoma_inhibition_probability | float | high | Probability score of inhibiting the fungus Madurella mycetomatis at 20% growth |
 
 
 ### Source and Deployment
