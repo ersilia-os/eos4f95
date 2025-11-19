@@ -2,8 +2,7 @@
 
 This model predicts the growth of the fungus M. mycetomatis, causal agent of Mycetoma, in presence of small drugs. It has been developed using the data from MycetOS, an open source initiative aiming at finding new patent-free drugs. The model has been trained using the LazyQSAR package from Ersilia.
 
-This model was incorporated on 2023-09-27.
-
+This model was incorporated on 2023-09-27.Last packaged on 2025-11-19.
 
 ## Information
 ### Identifiers
@@ -36,13 +35,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `Internal`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos4f95](https://hub.docker.com/r/ersiliaos/eos4f95)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4f95.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4f95.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `16`
 - **Environment Size (Mb):** `7610`
+- **Image Size (Mb):** `7520.99`
 
+**Computational Performance (seconds):**
+- 10 inputs: `67.8`
+- 100 inputs: `50.9`
+- 10000 inputs: `499.88`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-qsar](https://github.com/ersilia-os/lazy-qsar)
