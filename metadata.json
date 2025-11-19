@@ -3,7 +3,7 @@
     "Slug": "mycetos",
     "Status": "Ready",
     "Title": "Inhibition of Eumycetoma from MycetOS",
-    "Description": "This model predicts the growth of the fungus M. mycetomatis, causal agent of Mycetoma, in presence of small drugs. It has been developed using the data from MycetOS, an opemn source initiative aiming at finding new patent-free drugs. The model has been trained using the LazyQSAR package (MorganBinaryClassifier) from Ersilia.",
+    "Description": "This model predicts the growth of the fungus M. mycetomatis, causal agent of Mycetoma, in presence of small drugs. It has been developed using the data from MycetOS, an open source initiative aiming at finding new patent-free drugs. The model has been trained using the LazyQSAR package from Ersilia.",
     "Deployment": [
         "Local"
     ],
