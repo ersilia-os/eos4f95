@@ -1,6 +1,6 @@
 FROM bentoml/model-server:0.11.0-py312
 MAINTAINER ersilia
-RUN pip install lazyqsar[descriptors]==2.1.3
+RUN pip install lazyqsar[descriptors]==2.1.4
 RUN lazyqsar-setup
 WORKDIR /repo
 COPY . /repo
