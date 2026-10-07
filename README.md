@@ -1,6 +1,6 @@
 # Inhibition of Eumycetoma from MycetOS
 
-This model predicts the growth of the fungus M. mycetomatis, causal agent of Mycetoma, in presence of small drugs. It has been developed using the data from MycetOS, an open source initiative aiming at finding new patent-free drugs. The model has been trained using the LazyQSAR package from Ersilia.
+Scores compounds for activity against Madurella mycetomatis, the fungus behind most cases of eumycetoma, a neglected infection for which itraconazole is the only treatment and a quarter of patients relapse. Ersilia trained the classifier with its LazyQSAR package on growth-inhibition data from MycetOS, an open-source drug discovery project that screened the Medicines for Malaria Venture boxes and shares its results openly. Actives number in the low hundreds, so the output is a prioritisation aid for further screening rather than a settled predictor.
 
 This model was incorporated on 2023-09-27.Last packaged on 2025-12-10.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-09-27.Last packaged on 2025-12-10.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of inhibition of M. mycetomatis (growth assay, cut-off at 20% growth)
+- **Interpretation:** Probability of Madurella mycetomatis growth inhibition, with actives defined by a 20% growth cut-off.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
