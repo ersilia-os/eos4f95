@@ -2,7 +2,7 @@
 
 Scores compounds for activity against Madurella mycetomatis, the fungus behind most cases of eumycetoma, a neglected infection for which itraconazole is the only treatment and a quarter of patients relapse. Ersilia trained the classifier with its LazyQSAR package on growth-inhibition data from MycetOS, an open-source drug discovery project that screened the Medicines for Malaria Venture boxes and shares its results openly. Actives number in the low hundreds, so the output is a prioritisation aid for further screening rather than a settled predictor.
 
-This model was incorporated on 2023-09-27.Last packaged on 2025-12-10.
+This model was incorporated on 2023-09-27.Last packaged on 2026-10-20.
 
 ## Information
 ### Identifiers
@@ -41,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `16`
 - **Environment Size (Mb):** `6436`
-- **Image Size (Mb):** `1962.99`
+- **Image Size (Mb):** `6522.01`
 
 **Computational Performance (seconds):**
-- 10 inputs: `32.34`
-- 100 inputs: `25.2`
-- 10000 inputs: `433.59`
+- 10 inputs: `34.98`
+- 100 inputs: `26.76`
+- 10000 inputs: `493.95`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-qsar](https://github.com/ersilia-os/lazy-qsar)
