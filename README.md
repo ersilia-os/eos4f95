@@ -14,7 +14,7 @@ This model was incorporated on 2023-09-27.Last packaged on 2025-12-10.
 - **Subtask:** `Activity prediction`
 - **Biomedical Area:** `Mycetoma`
 - **Target Organism:** `Madurella mycetomatis`
-- **Tags:** `Mycetoma`, `Antifungal activity`
+- **Tags:** `Antifungal activity`
 
 ### Input
 - **Input:** `Compound`
