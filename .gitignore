@@ -131,3 +131,6 @@ dmypy.json
 
 #eosvc managed
 model/framework/fit/*
+
+# eosvc local bookkeeping (access policy lock)
+.eosvc/
