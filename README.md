@@ -1,6 +1,6 @@
 # Inhibition of Eumycetoma from MycetOS
 
-Scores compounds for activity against Madurella mycetomatis, the fungus behind most cases of eumycetoma, a neglected infection for which itraconazole is the only treatment and a quarter of patients relapse. Ersilia trained the classifier with its LazyQSAR package on growth-inhibition data from MycetOS, an open-source drug discovery project that screened the Medicines for Malaria Venture boxes and shares its results openly. Actives number in the low hundreds, so the output is a prioritisation aid for further screening rather than a settled predictor.
+Scores compounds for activity against Madurella mycetomatis, the fungus behind most cases of eumycetoma, a neglected infection for which itraconazole is the only treatment and a quarter of patients relapse. Ersilia trained a LazyQSAR classifier on open growth-inhibition data from MycetOS, which screened Medicines for Malaria Venture boxes and other libraries (7,616 compounds, 445 actives). Five-fold out-of-fold validation gives AUROC 0.92. Outputs are ranks against 50,000 drug-like molecules, best used to prioritise compounds for screening.
 
 This model was incorporated on 2023-09-27.
 Last packaged on 2026-10-20.
@@ -24,12 +24,12 @@ Last packaged on 2026-10-20.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of Madurella mycetomatis growth inhibition, with actives defined by a 20% growth cut-off.
+- **Interpretation:** Rank of predicted Madurella mycetomatis growth inhibition against 50,000 drug- like molecules; 0.65 is better than 99% of them.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| mycetoma_inhibition_probability | float | high | Probability score of inhibiting the fungus Madurella mycetomatis at 20% growth |
+| mycetoma_inhibition_rank | float | high | Rank score of the compound's predicted growth inhibition of the fungus Madurella mycetomatis, calibrated against a reference library of 50K drug-like molecules so that 0.65 is better than 99% of them. Recommended threshold: 0.65. |
 
 
 ### Source and Deployment
