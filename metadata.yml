@@ -2,14 +2,14 @@ Identifier: eos4f95
 Slug: mycetos
 Status: Ready
 Title: Inhibition of Eumycetoma from MycetOS
-Description: Scores compounds for activity against Madurella mycetomatis, the fungus behind
-  most cases of eumycetoma, a neglected infection for which itraconazole is the
-  only treatment and a quarter of patients relapse. Ersilia trained a LazyQSAR
-  classifier on open growth-inhibition data from MycetOS, which screened
-  Medicines for Malaria Venture boxes and other libraries (7,616 compounds, 445
-  actives). Five-fold out-of-fold validation gives AUROC 0.92. Outputs are ranks
-  against 50,000 drug-like molecules, best used to prioritise compounds for
-  screening.
+Description: Scores compounds for activity against Madurella mycetomatis, the 
+  fungus behind most cases of eumycetoma, a neglected infection for which 
+  itraconazole is the only treatment and a quarter of patients relapse. Ersilia 
+  trained a LazyQSAR classifier on open growth-inhibition data from MycetOS, 
+  which screened Medicines for Malaria Venture boxes and other libraries (7,616 
+  compounds, 445 actives). Five-fold out-of-fold validation gives AUROC 0.92. 
+  Outputs are ranks against 50,000 drug-like molecules, best used to prioritise 
+  compounds for screening.
 Deployment:
   - Local
 Source: Local
@@ -23,8 +23,8 @@ Output:
   - Score
 Output Dimension: 1
 Output Consistency: Fixed
-Interpretation: Rank of predicted Madurella mycetomatis growth inhibition against 50,000 drug-
-  like molecules; 0.65 is better than 99% of them.
+Interpretation: Rank of predicted Madurella mycetomatis growth inhibition 
+  against 50,000 drug- like molecules; 0.65 is better than 99% of them.
 Tag:
   - Antifungal activity
 Biomedical Area:
